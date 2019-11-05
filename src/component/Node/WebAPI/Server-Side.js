@@ -1,6 +1,7 @@
 import React from 'react'
-import notes2 from '../../assets/nodeAssets/webapi/notesWebAPI2.png'
-import server from '../../assets/nodeAssets/webapi/server-side.webm'
+import notes2 from '../../../assets/nodeAssets/webapi/notesWebAPI2.png'
+import server from '../../../assets/nodeAssets/webapi/server-side.webm'
+
 import { DefaultPlayer as Video } from 'react-html5video';
 
 const ServerSide = () =>{
@@ -17,7 +18,7 @@ return(
       </div>
       <li><img src={notes2}/></li>
       <Video>
-        <source src={b1}  type="video/webm" />
+        <source src={server}  type="video/webm" />
         </Video>
 </>
 

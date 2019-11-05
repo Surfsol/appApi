@@ -1,20 +1,15 @@
 import React from 'react'
 import {Route, NavLink} from 'react-router-dom'
-import ServerSide from './Server-Side'
+import Schema from './Schema'
 // import Middleware from './Middleware'
-import Deployment from './Deployment'
 // import ReducerPattern from './ReducerPattern'
 
-function Node(){
+function AddData(){
     return(
         <div>
             <div>
-            <NavLink to='/Node/WebAPI/server-side'>Server Side</NavLink>
-            <Route path='/Node/WebAPI/server-side' component={ServerSide}/>
-            </div>
-            <div>
-            <NavLink to='/Node/WebAPI/deployment'>Deployment</NavLink>
-            <Route path='/Node/WebAPI/Deployment' component={Deployment}/>
+            <NavLink to='/Node/AddData/Schema'>Schema</NavLink>
+            <Route path='/Node/AddData/Schema' component={Schema}/>
             </div>
             {/* <div>
             <NavLink to='/webapp2/Node/Client-Side'>Client-Side</NavLink>
@@ -34,4 +29,4 @@ function Node(){
 
 }
 
-export default Node;
+export default AddData;
